@@ -249,7 +249,7 @@ function play(guild, song) {
 
 
 	client.on("message", message => {
- if (message.content === "1help") {
+ if (message.content === "3help") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setDescription('👑أوامر الموسيقى👑')
